@@ -8,7 +8,7 @@ Describes how the classes, methods and properties/arguments/variables should be 
 - as per [Basic Coding Standard](https://github.com/AzonMedia/php-coding-standard) object properties, method arguments and local variables should be named in $snake_case
 - as mandated by [Basic Coding Standard](https://github.com/AzonMedia/php-coding-standard) the names that contain abbreviations like HTTP should not be kept in all CAPS. Instead of the Classes should be named like HttpRequest and properties/variables $http_request
 - objects should be named $PascalCase. This includes closures/callbacks: `$Callback = function() : void {};`
-- no property or variable should start with '_' except if the variable/argument is passed by reference. If an object is passed by reference then the object should be named as usual in $PascalCase without leading _.
+- no property or variable should start with '_' except if the variable/argument is passed by reference.
 - methods can not start with '__' (double underscore) as these should be reserved for future use by PHP.
 - methods should not start with '_' as these are reserved for hook names in the framework
 - _ in the name of a property or a method does not denote visibility (some projects use '_' to denote private visibility). In the case of variables, it denotes a reference and in the case of methods, it denotes a hook.
